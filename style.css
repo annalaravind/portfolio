@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #001F3F;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header */
+header{
+    width:100%;
+    height:80px;
+    background-color: #001b34;
+    position: fixed;
+    z-index: 999;
+    opacity: 0.95;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+}
+header nav div{
+    font-size: 24px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+header nav ul li{
+    width:120px;
+    height:80px;
+    text-align: center;
+    padding-top: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    list-style-type: none;
+    cursor: pointer;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header nav ul li a:hover{
+    transition: 0ms;
+}
+header nav ul li:hover{
+    font-size: 18px;
+    transition: 500ms;
+    transform: rotate(360deg);
+}
+/* Home */
+.middle_session{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 100px 0px 100px ;
+}
+.my_intro{
+    width:670px;
+    height:400px;
+    margin-top: 50px;
+}
+.purple{
+    color: rgb(255, 3, 255);
+}
+#element{
+    color: rgb(248, 141, 248);
+}
+.my_intro p{
+    font-size: 40px;
+    padding: 100px 150px 0px 50px;
+}
+.downGit{
+    width:670px;
+    height:100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.downGit button{
+    border: 1px solid white;
+    width:150px;
+    height:40px;
+    background-color: rgb(21, 21, 83);
+    color:white;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.downGit #downloadButton{
+    margin-left: 30px;
+    width: 200px;
+    cursor: pointer;
+}
+.downGit #visitGithub{
+    margin-right: 200px;
+    width: 150px;
+}
+.downGit #visitGithub a{
+    text-decoration: none;
+    color: white;
+}
+.im{
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    padding: 0px 100px 25px 100px;
+}
+.an_image{
+    width: 350px;
+    height: 350px;
+}
+.an_image a img{
+    border: 1px solid white;
+    width:350px;
+    height:350px;
+    border-radius: 50%;
+    transform: scale(1);
+}
+.an_image a img:hover{
+    border: 1px solid white;
+    transform: scale(1.01);
+    width: 350px;
+    height: 350px;
+    box-shadow: 0px 0px 30px white;
+    transition: 500ms;
+}
+/* About */
+.education{
+    width:100%;
+    height:auto;
+    padding: 100px 100px 10px 100px;
+}
+.educ{
+    width:400px;
+    height:60px;
+    padding: 0px 70px 0px 50px;
+}
+.educ marquee{
+    font-weight: 400;
+    font-size: 30px;
+}
+.grad{
+    width:100%;
+    height:auto;
+}
+.grad span{
+    margin-left: 50px;
+}
+.grad .bTech{
+    border: 2px solid white;
+    width:100%;
+    height:170px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.grad .inter{
+    border: 2px solid white;
+    width:100%;
+    height:170px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.grad .school{
+    border: 2px solid white;
+    width:100%;
+    height:170px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.anime {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    margin: 10px 50px;
+    border-radius: 3px;
+    background-color: white;
+    transition: width 1s ease;
+    color: black;
+    overflow: hidden;
+}
+.anime:hover {
+    width: 93%;
+}
+.anime img{
+    margin:5px 15px 5px 5px;
+    width:140px;
+    height:140px;
+}
+.hover{
+    width:200px;
+    height:150px;
+    margin-top: 10px;
+    color: white;
+    padding-top: 60px;
+    font-size: 20px;
+}
+.info{
+    width:auto;
+    height:140px;
+    margin: 5px 15px 5px 5px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Projects */
+.project{
+    width:100%;
+    height:auto;
+    margin-top: 10px;
+    padding: 100px 100px;
+}
+.pro marquee{
+    width:400px;
+    height:60px;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.project span{
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.todo{
+    border:1px solid white;
+    width:100%;
+    height:200px;
+    margin: 10px 0px 50px 0px;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.weather{
+    border: 1px solid white;
+    width:100%;
+    height:230px;
+    margin: 10px 0px 50px 0px;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.calc{
+    border: 1px solid white;
+    width:100%;
+    height:170px;
+    margin: 10px 0px 50px 0px;
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.todo_content{
+    width:800px;
+    height:auto;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+.todo_content a{
+    color: pink;
+}
+.weather_content{
+    width:800px;
+    height:auto;
+    padding: 0px 10px;
+    font-size: 17px;
+}
+.weather_content a {
+    color: pink;
+}
+.calc_content{
+    width:800px;
+    height:auto;
+    padding: 10px;
+    font-size: 0px 17px;
+}
+.calc_content a {
+    color: pink;
+}
+.re_direct{
+    width:450px;
+    height:140px;
+}
+.iimmgg{
+    width:300px;
+    margin: 0 auto;
+    height:80px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.iimmgg a img{
+    width:70px;
+    height: 70px;
+    margin-left: 110px;
+}
+.text{
+    width:100%;
+    height:40px;
+    text-align: center;
+}
+/* Contact */
+.contact{
+    width:100%;
+    height:250px;
+    background-color: #01162a;
+}
+.aaa{
+    width:100%;
+    height:180px;
+    display: flex;
+}
+.footer_navigation{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.footer_navigation li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.footer_navigation li a{
+    text-decoration: none;
+    color:rgb(0, 170, 255);
+}
+.footer_navigation li a:hover{
+    text-decoration: underline;
+    transition: 200ms;
+}
+.border{
+    border: 0.5px solid white;
+    height: 160px;
+    margin: 10px 100px 10px 100px;
+}
+.footer_contact{
+    width:800px;
+    height: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.footer_contact p a{
+    color: rgb(103, 103, 255);
+}
+.footer_social{
+    width: 600px;
+    margin-top: 20px;
+    padding-left: 150px;
+}
+.footer_social a img{
+    width:50px;
+    height:50px;
+    margin-left: 40px;
+}
+.footer_copyright{
+    width:100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Mobile screen */
+
+
+/* Tablet screen */
