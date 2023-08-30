@@ -19,9 +19,3 @@ document.querySelector(".menu-icon").addEventListener("click", function () {
     menuItems.classList.toggle("active");
 });
 
-// Setup and start animation!
-var typed = new Typed("#element", {
-    strings: ["Video Editor", "Front End Developer"],
-    typeSpeed: 50,
-});
-
